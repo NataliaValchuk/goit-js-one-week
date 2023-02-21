@@ -177,7 +177,7 @@
 // }
 
 
-// const getUserNames = users.map((user => user.name)  
+// const getUserNames = users.map((user => user.name)
 
 // const isComing = confirm("Please confirm hotel reservation");
 // console.log(isComing);
@@ -198,4 +198,11 @@
 // };
 // const { firstName: personName } = person;
 // console.log(personName);
+
+// const base = 2;
+// const power = 5;
+// const result = Math.pow(base,power);
+// console.log(result);
+
+
 
