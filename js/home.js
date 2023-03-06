@@ -1,3 +1,5 @@
+"use strict";
+
 // const atTheOldToad = {
 //   potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
 //   updatePotionName(oldName, newName) {
@@ -204,5 +206,24 @@
 // const result = Math.pow(base,power);
 // console.log(result);
 
+// console.log(document);
 
+// const body = document.body;
+// console.log(body);
 
+// const list = body.firstElementChild;
+// console.log(list);
+
+// const firstListItem = list.firstElementChild;
+// console.log(firstListItem);
+
+// const listItems = list.children;
+// console.log(listItems);
+
+// 
+const obj = {
+    foo() {
+        console.log(this);
+    }
+};
+obj.foo();
