@@ -30,3 +30,9 @@ const galleryItems = images
   .join('');
 
 galleryContainer.insertAdjacentHTML('beforeend', galleryItems);
+
+
+
+// button.style.backgroundColor = 'teal';
+// button.style.fontSize = '24px';
+// button.style.textAlign = 'center';
