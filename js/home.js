@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // const atTheOldToad = {
 //   potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
@@ -60,12 +60,10 @@
 //   return 'Your pizza is being prepared, please wait.';
 // }
 
-
 // // Change code below this line
 
 // const result = null;
 // const pointer = null;
-
 
 // const pizzaPalace = {
 //   pizzas: ["Ultracheese", "Smoked", "Four meats"],
@@ -94,7 +92,6 @@
 // pizzaPalace.order("Big Mike", makePizza, onOrderError);
 // pizzaPalace.order("Vienna", makePizza, onOrderError);
 
-    
 //   function calculateTotalPrice(orderedItems) {
 //     let totalPrice = 0;
 //     // Change code below this line
@@ -106,7 +103,7 @@
 //     // Change code above this line
 //     return totalPrice;
 // }
-  
+
 // function filterArray(numbers, value) {
 //   const filteredNumbers = [];
 //   // Change code below this line
@@ -166,7 +163,7 @@
 
 // const changeEven = (numbers, value) => {
 //   const newArray = [];
-  
+
 //   numbers.forEach((element) => {
 //     if (element % 2 === 0) {
 //       newArray.push(element + value);
@@ -174,16 +171,14 @@
 //       newArray.push(element);
 //     }
 //   });
-  
+
 //   return newArray;
 // }
-
 
 // const getUserNames = users.map((user => user.name)
 
 // const isComing = confirm("Please confirm hotel reservation");
 // console.log(isComing);
-
 
 // const hotelName = prompt("Please enter desired hotel name");
 // console.log(hotelName); \
@@ -220,10 +215,29 @@
 // const listItems = list.children;
 // console.log(listItems);
 
-// 
-const obj = {
-    foo() {
-        console.log(this);
-    }
+//
+// const obj = {
+//     foo() {
+//         console.log(this);
+//     }
+// };
+// obj.foo();
+
+// let myName
+
+// console.log(myName)
+// myName = 'Nataliy'
+// console.log(myName);
+// console.log(10)
+//
+const myCity = {
+  city: 'new York',
 };
-obj.foo();
+myCity.popular = true;
+console.log(myCity);
+myCity.country = 'USA';
+console.log(myCity);
+myCity.street = 'Park Avenue';
+console.log(myCity);
+delete myCity.country;
+console.log(myCity);
